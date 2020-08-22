@@ -1,0 +1,220 @@
+
+/*GENERAL SETUP*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+/*TYPOGRAPHY*/
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+}
+
+h1, h2, h3, h4, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 18;
+    font-style: Light;
+}
+
+h1 {
+    font-size: 35;
+}
+
+h2 {
+    font-size: 30;
+}
+/*NAV BAR*/
+
+.Header {
+    overflow: auto;
+    clear: both;
+}
+
+nav {
+    float: right;
+    padding-right: 20px;
+}
+
+.kastLogo img {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-align: center;
+    flex-direction: row;
+}
+
+a.Carrot {
+    font-size: 15;
+    font: sans-serif;
+    font-stretch: ultra-expanded;
+    text-transform: full-width;
+    font-style: bolder;
+}
+
+.openKastButton1 {
+    border: solid;
+    border-width: 1;
+    padding: 4px 6px;
+    margin: 4px 2px;
+    font-size: 14;
+    text-transform: uppercase;
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    display: inline-block;
+  }
+
+.watchPartyContainer{
+    background-image: url(./staticLayoutAssets/kastPurpleBackground.jpg);
+    text-align: center;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: auto;
+}
+
+/* BODY*/
+
+.laptopImage {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.watchText {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.watch {
+    position: center;
+    font-size: 45;
+}
+
+.share {
+    position: center;
+    line-height: 1.6;
+    font-size: 20;
+    padding-bottom: 20px;
+}
+/* (Open Kast Button) */
+
+/*Featured In Section*/
+
+.featuredIn {
+    display: block;
+    text-align: center;
+    background: white;
+    padding-top: 60px;
+    color: #414854;
+}
+
+.logoGrid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 60px 80px;
+    column-gap: auto;
+    row-gap: 90px;
+}
+
+#logoGridBox {
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.yahooQuote {
+    font-style: italic;
+    color: #414854;
+}
+
+.yahooFinance {
+    font-style: italic;
+    text-align: right;
+    padding-right: 190px;
+    color: #414854;
+    display: block;
+    padding-bottom: 50px;
+}
+
+/* What is Kast? Section */
+
+.whatIsKastContainer {
+    background-image: url(./staticLayoutAssets/kastBlueBackground.jpg);
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    min-height: 50%;
+    z-index: auto;
+}
+
+.kast .looking .upTo20 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.whatContainer {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.kast {
+    position: center;
+    font-size: 45;
+    padding-top: 70px;
+}
+
+.looking {
+    position: center;
+    line-height: 1.6;
+    font-size: 20;
+    padding-bottom: 30px;
+}
+
+.openKastButton2 {
+    background-color: #FE9000;
+    font-size: 18;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: bold;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+  }

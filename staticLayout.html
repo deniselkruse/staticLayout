@@ -1,0 +1,112 @@
+<!-- /* Requirements:
+Any buttons on the page must open to a blank tab.
+Any links referring another section on the page must go to that section.
+The finished project must be deployed to Github Pages 
+The site must utilize animation if it is present on the page
+The site must utilize CSS Grid or Flexbox on at least one (1) section
+It does not need to be entirely responsive
+The student does not have to recreate more than 2 times the view-height of the screen
+*/ -->
+
+<head>
+    <title>Static Layout: Kast App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link ref="text/css" rel="stylesheet" href="staticLayout.css"/>
+</head>
+<body>
+
+    <section class="watchParty">
+        <div class= "watchPartyContainer">
+            <header id= "Header">
+
+                <div class= "kastLogo">
+                    <a href= "about:blank" target= "_blank"><img src="./staticLayoutAssets/kast-logo-horizontal-color-white.svg" alt="Kast Logo" width= "200"/></a>
+                </div>
+
+                <nav> 
+                    <ul class= "navbar">
+                        <li class= "navbarDropdown">
+                            <a href= "about:blank" target= "_blank">About<a href= "about:blank" target= "_blank" class= "Carrot"> v</a></a>
+                        </li>
+
+                        <li class= "navbarDropdown">
+                            <a href= "about:blank" target= "_blank">Help<a href= "about:blank" target= "_blank" class= "Carrot"> v</a></a>
+                        </li>
+
+                        <li class= "navbarDropdown">
+                            <a href= "about:blank" target= "_blank">Community<a href= "about:blank" target= "_blank" class= "Carrot"> v</a></a>
+                        </li>
+
+                        <li class= "navbarDropdown">
+                            <a href= "about:blank" target= "_blank">Premium</a>
+                        </li>
+
+                        <li class="openKastButton1">
+                            <a href= "about:blank" target= "_blank">Open Kast</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </header>
+            
+            <div class= "laptopImage">
+                <img src="./staticLayoutAssets/laptop-table.png" alt="Laptop" style="width:100%"/>
+            </div>
+
+
+            <div class = "watchText">
+                <h1 class= "watch">Watch parties made easy.</h1>
+                <p class= "share">Share movies, TV shows, and whatever you want with <br>friends online. Join millions of kasters today!</p>
+            </div>
+
+            <div class="openKastButton2">
+                <a href= "about:blank" target= "_blank">Open Kast</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="featuredIn">
+        <h2>Featured in</h2>
+
+        <div id= "logoGridBox">
+            <div class="logoGrid">
+                <img src="./staticLayoutAssets/wired-logo.svg" alt="Wired Logo" />
+
+                <img src="./staticLayoutAssets/nerdist-logo.svg" alt="Nerdist" />
+
+                <img src="./staticLayoutAssets/yahoo-finance-logo.svg" alt="Yahoo! Finance" />
+        
+                <img src="./staticLayoutAssets/evening-standard-logo.svg" alt="Evening Standard" />
+
+                <img src="./staticLayoutAssets/bbc-logo.svg" alt="BBC" />
+
+                <img src="./staticLayoutAssets/daily-mail-logo.svg" alt="Daily Mail" />
+            </div>
+        </div>
+
+        <div class= "yahooQuote"> 
+            <h3>"Kast has probably never been more relevant — or necessary — than it is right now."</h3>
+        </div>
+        <div class="yahooFinance">
+            <h4>- Yahoo Finance</h4>
+        </div>
+    </section>
+
+    <section class= "whatIsKast">
+
+        <div class= "whatIsKastContainer"> 
+
+            <div class= "whatContainer">
+                <h1 class= "kast">What is Kast?</h1>
+                <p class= "looking">Looking for a place to watch movies, play, and hang out with friends? <br> Hop onto Kast and start sharing experiences real-time! <br><br>Up to 20 people can share their screen or camera and another 100 can <br> watch.</p>
+            </div>
+            
+            <div class="openKastButton2">
+                <a href= "about:blank" target= "_blank">Open Kast</a>
+            </div>
+
+        </div>
+
+    </section>
+</body>
