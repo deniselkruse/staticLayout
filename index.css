@@ -4,12 +4,14 @@
 html, body {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 body {
     width: 100vw;
     margin: 0 auto;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*TYPOGRAPHY*/
@@ -23,22 +25,19 @@ a:visited {
     color:white;
 }
 
-h1, h2, h3, h4, p {
-    font-family: 'Roboto', sans-serif;
-}
-
 p {
     font-size: 18;
     font-style: Light;
 }
 
 h1 {
-    font-size: 35;
+    font-size: 40px;
 }
 
 h2 {
     font-size: 30;
 }
+
 /*NAV BAR*/
 
 .Header {
@@ -70,7 +69,6 @@ nav ul li{
     flex-direction: row;
 }
 
-
 /* .dropdownMenu {
     position: absolute;
     float: none;
@@ -85,10 +83,9 @@ nav ul li{
 
 } */
 
-
 .openKastButton1 {
     border: solid;
-    border-width: 1;
+    border-width: .25;
     padding: 4px 6px;
     margin: 4px 2px;
     font-size: 14;
@@ -110,7 +107,7 @@ nav ul li{
 /* BODY*/
 
 .laptopImage {
-    display: inline-block;
+    display: block;
     text-align: center;
     position: relative;
     margin: auto;
@@ -125,7 +122,6 @@ nav ul li{
 
 .watch {
     position: center;
-    font-size: 45;
 }
 
 .share {
@@ -202,7 +198,6 @@ nav ul li{
 
 .kast {
     position: center;
-    font-size: 45;
     padding-top: 70px;
 }
 
